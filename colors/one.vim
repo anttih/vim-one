@@ -677,6 +677,15 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('rustCommentBlockDocError', s:mono_3,    '', '')
 " }}}
   
+" PureScript highlighting -------------------------------------------------------{{{
+
+  call <sid>X('purescriptKeyword',        s:hue_3,    '', '')
+  call <sid>X('purescriptModuleName',     s:mono_1,    '', '')
+  call <sid>X('purescriptDelimiter',      s:mono_1,    '', '')
+  call <sid>X('purescriptConstructor',    s:hue_5,    '', '')
+  call <sid>X('purescriptStructure',      s:hue_3,    '', '')
+" }}}
+"
   " Delete functions =========================================================={{{
   delf <SID>X
   delf <SID>rgb
